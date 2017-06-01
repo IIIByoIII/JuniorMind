@@ -11,8 +11,8 @@ namespace HungryGoats
         [TestMethod]
         public void HayEatenByGoats()
         {
-            double hayEaten = CalculateEatenHay(2, 2, 4.0, 3, 3);
-            Assert.AreEqual(9.0, hayEaten);
+            double hayEaten = CalculateEatenHay(2, 5, 15.0, 4, 2);
+            Assert.AreEqual(12.0, hayEaten);
         }
 
         double CalculateEatenHay(int xDays, int yGoats, double zHay, int wDays, int qGoats)
