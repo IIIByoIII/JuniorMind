@@ -9,8 +9,8 @@ namespace Mushrooms
         [TestMethod]
         public void NumberOfRedMushrooms()
         {
-            int redMushrooms = CalculateRedMushrooms(8, 3);
-            Assert.AreEqual(6, redMushrooms);
+            int redMushrooms = CalculateRedMushrooms(10, 3);
+            Assert.AreEqual(7, redMushrooms);
         }
 
         int CalculateRedMushrooms(int totalNumberOfMushrooms, int timesMoreRedMushrooms)
