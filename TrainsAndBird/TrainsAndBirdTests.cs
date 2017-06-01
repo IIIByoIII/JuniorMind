@@ -17,10 +17,27 @@ namespace TrainsAndBird
             Assert.AreEqual(20, birdFlyDistance);
         }
 
+        [TestMethod]
+        public void FirstAndSecondFlyDistanceOfBird()
+        {
+            decimal sumOfBirdFlyDistance = CalculateSumOfDistances(90, 2);
+            Assert.AreEqual(40, sumOfBirdFlyDistance);
+        }
+
         decimal CalculateBirdFlyDistance(decimal trainDistance)
         {
             // (trainDistance/2)*(2/3)
             return trainDistance / 3;
+        }
+
+        decimal CalculateSumOfDistances(decimal trainDistance, int timesBirdFlown)
+        {
+            decimal currentDistanceFlown = trainDistance / 3;
+            for (int i = 1; i < timesBirdFlown; i++)
+            {
+                currentDistanceFlown += currentDistanceFlown / 3;
+            }
+            return currentDistanceFlown;
         }
     }
 }
