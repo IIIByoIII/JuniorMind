@@ -11,23 +11,10 @@ namespace TrainsAndBird
     public class TrainsAndBirdTests
     {
         [TestMethod]
-        public void FirstFlyDistanceOfBird()
-        {
-            double birdFlyDistance = CalculateBirdFlyDistance(60);
-            Assert.AreEqual(20, birdFlyDistance);
-        }
-
-        [TestMethod]
         public void SummedFlyDistanceOfBird()
         {
-            double sumOfBirdFlyDistance = CalculateSumOfDistances(243, 6);
-            Assert.AreEqual(121.333333, sumOfBirdFlyDistance, 0.001);
-        }
-
-        double CalculateBirdFlyDistance(double trainDistance)
-        {
-            // (trainDistance/2)*(2/3)
-            return trainDistance / 3;
+            double sumOfBirdFlyDistance = CalculateSumOfDistances(243, 7);
+            Assert.AreEqual(121.444, sumOfBirdFlyDistance, 0.001);
         }
 
         double CalculateSumOfDistances(double trainDistance, int timesBirdFlown)
