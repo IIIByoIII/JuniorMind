@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BankRate", "BankRate\BankRa
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrainsAndBird", "TrainsAndBird\TrainsAndBird.csproj", "{4BA6027E-D2F4-49AE-82F1-0CD12A135DE5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HungryGoats", "HungryGoats\HungryGoats.csproj", "{18441F40-57F6-4E3D-A278-CB7E91232AF1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{4BA6027E-D2F4-49AE-82F1-0CD12A135DE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4BA6027E-D2F4-49AE-82F1-0CD12A135DE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4BA6027E-D2F4-49AE-82F1-0CD12A135DE5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{18441F40-57F6-4E3D-A278-CB7E91232AF1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18441F40-57F6-4E3D-A278-CB7E91232AF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18441F40-57F6-4E3D-A278-CB7E91232AF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18441F40-57F6-4E3D-A278-CB7E91232AF1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
