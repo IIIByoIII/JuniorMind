@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mushrooms", "Mushrooms\Mush
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MarketPavement", "MarketPavement\MarketPavement.csproj", "{8E185919-85A7-4B57-A15D-E352AA976BD2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AthleteRepetitions", "AthleteRepetitions\AthleteRepetitions.csproj", "{6B91AA12-68EE-4211-B3E6-8F594C1FD087}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{8E185919-85A7-4B57-A15D-E352AA976BD2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8E185919-85A7-4B57-A15D-E352AA976BD2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8E185919-85A7-4B57-A15D-E352AA976BD2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6B91AA12-68EE-4211-B3E6-8F594C1FD087}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B91AA12-68EE-4211-B3E6-8F594C1FD087}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B91AA12-68EE-4211-B3E6-8F594C1FD087}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B91AA12-68EE-4211-B3E6-8F594C1FD087}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
