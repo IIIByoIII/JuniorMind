@@ -9,7 +9,7 @@ namespace MarketPavement
         [TestMethod]
         public void TotalTilesNeeded()
         {
-            int numberOfTilesNeeded = TotalNumberOfTiles(25, 10, 6);
+            int numberOfTilesNeeded = TotalNumberOfTiles(2.5, 1.0, 0.6);
             Assert.AreEqual(10, numberOfTilesNeeded);
         }
 
