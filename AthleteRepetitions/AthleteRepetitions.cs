@@ -9,18 +9,13 @@ namespace AthleteRepetitions
         [TestMethod]
         public void RepetitionsDone()
         {
-            int repetitionsToDo = TotalRepetitions(4);
-            Assert.AreEqual(16, repetitionsToDo);
+            int repetitionsToDo = TotalRepetitions(5);
+            Assert.AreEqual(25, repetitionsToDo);
         }
 
         int TotalRepetitions (int numberOfRounds)
         {
-            int currentNumberOfRepetitions = 0;
-            for (int i = 1; i < numberOfRounds; i++)
-            {
-                currentNumberOfRepetitions += 2 * i;
-            }
-            int totalNumberOfRepetitions = currentNumberOfRepetitions + numberOfRounds;
+            int totalNumberOfRepetitions = numberOfRounds * numberOfRounds;
             return totalNumberOfRepetitions;
         }
     }
