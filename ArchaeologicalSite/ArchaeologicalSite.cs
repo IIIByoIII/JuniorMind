@@ -9,8 +9,8 @@ namespace ArchaeologicalSite
         [TestMethod]
         public void SurfaceOfBuilding()
         {
-            double minimumSurfaceOfBuilding = MinimumSurface (1, 1, 4, 1, 1, 4);
-            Assert.AreEqual(4.5, minimumSurfaceOfBuilding);
+            double minimumSurfaceOfBuilding = MinimumSurface (-2, -2, 4, -2, -2, 4);
+            Assert.AreEqual(18, minimumSurfaceOfBuilding);
         }
 
         double MinimumSurface (double columnOneX, double columnOneY, double columnTwoX, double columnTwoY, double columnThreeX, double columnThreeY)
