@@ -9,8 +9,8 @@ namespace Parquet
         [TestMethod]
         public void NeededParquetSurface()
         {
-            double surfaceOfParquetNeeded = ParquetSurfaceNeeded(5, 6);
-            Assert.AreEqual(34.5, surfaceOfParquetNeeded);
+            double surfaceOfParquetNeeded = ParquetSurfaceNeeded(6, 6);
+            Assert.AreEqual(41.4, surfaceOfParquetNeeded);
         }
 
         double ParquetSurfaceNeeded (double roomLength, double roomWidth)
@@ -23,8 +23,8 @@ namespace Parquet
         [TestMethod]
         public void NeededParquetTiles()
         {
-            double tilesOfParquetNeeded = ParquetTilesNeeded(5, 6, 3, 1);
-            Assert.AreEqual(12, tilesOfParquetNeeded);
+            double tilesOfParquetNeeded = ParquetTilesNeeded(6, 6, 3, 1.5);
+            Assert.AreEqual(10, tilesOfParquetNeeded);
         }
 
         int ParquetTilesNeeded(double roomLength, double roomWidth, double parquetLenght, double parquetWidth)
