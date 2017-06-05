@@ -19,5 +19,20 @@ namespace Parquet
             double parquetSurface = roomSurface + (roomSurface * 15 / 100);
             return parquetSurface;
         }
+
+        [TestMethod]
+        public void NeededParquetTiles()
+        {
+            double tilesOfParquetNeeded = ParquetTilesNeeded(5, 6, 3, 1);
+            Assert.AreEqual(12, tilesOfParquetNeeded);
+        }
+
+        int ParquetTilesNeeded(double roomLength, double roomWidth, double parquetLenght, double parquetWidth)
+        {
+            double totalNeededSurface = ParquetSurfaceNeeded(roomLength, roomWidth);
+            double parquetSurface = parquetLenght * parquetWidth;
+            int parquetTiles = (int)Math.Ceiling(totalNeededSurface / parquetSurface);
+            return parquetTiles;
+        }
     }
 }
